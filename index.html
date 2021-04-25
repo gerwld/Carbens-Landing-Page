@@ -7,8 +7,14 @@
     <meta name="description" content="Second Landing Page to grow up my skills in HTML & CSS">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:200,400,600,700">
+    <script type="text/javascript">
+      $(window).load(function() {
+        $("body").removeClass("preload");
+      });
+    </script>
   </head>
-  <body>
+  <!-- Fix preload transitions in Chrome -->
+  <body class="preload">
     <header class="main-header">
       <div class="content-wrapper">
         <div class="header-block-1 clearfix">
@@ -83,7 +89,7 @@
         </section>
         <section class="latest-articles">
         <div class="content-wrapper">
-          <h2 class="sect-title">Check out our latest article</h2>
+          <h2 class="sect-title">Check out our latest articles</h2>
           <div class="article-blocks">
             <div class="article-block article-block-1">
               <div class="article-info">
@@ -121,7 +127,7 @@
       <div class="footer-grid">
         <div class="footer-info">
           <div class="site-logo"><a href="#" alt="Logo" title="Carbens"><img src="img/logo-footer.svg"></a></div>
-          <p>Carbets provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+          <p>Carbets provides progressive, and affordable healthcare, accessible online for everyone.</p>
         </div>
         <nav class="nav-footer nav-footer-1"  role="navigation">
           <h4>Company</h4>
