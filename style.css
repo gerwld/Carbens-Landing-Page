@@ -380,3 +380,57 @@ p.sect-description {
 .article-block .article-pic img {
   cursor: pointer;
 }
+
+.main-footer {
+  background-color: #1C74EF;
+  padding-top: 110px;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+
+.footer-info {
+  width: 300px;
+}
+
+.footer-info p {
+  font-weight: 200;
+  color: #fff;
+}
+
+.nav-footer a,
+.nav-footer h4 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-footer a {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.nav-footer a:hover {
+  text-decoration: underline;
+}
+
+.nav-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-footer li {
+  margin-bottom: 10px;
+}
+
+.nav-footer h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 17% 17% 17%;
+  width: 1200px;
+  margin: 0 auto;
+}
