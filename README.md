@@ -1,7 +1,8 @@
 # Carbens Landing Page
 Second Landing Page created for grow up my skills in HTML & CSS
 
-Specification:
-// Writed generally on Flexbox
-
+<b>Specification:</b><br>
+// Writed generally on Flexbox<br>
+<br>
+<b>Preview:</b><br>
 https://gerwld.github.io/Carbens-Landing-Page/
