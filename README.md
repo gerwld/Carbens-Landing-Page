@@ -1,4 +1,7 @@
 # Carbens-Landing-Page
-Create to grow up my skills
+Second Landing Page created for grow up my skills in HTML & CSS
+
+Specification:
+// Writed generally on Flexbox
 
 https://gerwld.github.io/Carbens-Landing-Page/
